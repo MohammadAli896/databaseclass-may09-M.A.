@@ -8,4 +8,8 @@ Rails.application.routes.draw do
   resources :resumes do
     resources :skills
   end
+  
+    resources :resumes do
+    resources :languages
+  end
 end
